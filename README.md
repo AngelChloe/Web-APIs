@@ -9,11 +9,13 @@ When taking this code quiz:
 - Click the start button
 - Timer starts and you will be presented with a question
 - Answer the question
-- Then you will be presented with another question
+- Then you will be presented with another question 
 - When you answer a question incorrectly then time is subtracted from the clock
 - When all questions are answered or the timer reaches 0; then the game is over
 - When the game is over, you can then save your initials and score
 
+Live Link:  
+https://cinderbeast.github.io/Web-APIs/
 
 The following animation demonstrates the application functionality:
 
