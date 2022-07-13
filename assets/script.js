@@ -1,4 +1,3 @@
-// JavaScript file for 04-Web-APIs-Challenge
 // Variables to access html elements
 let scores = document.querySelector("#scores");
 let timer = document.querySelector("#timer");
@@ -19,7 +18,7 @@ class Question {
 
 let questionList = [];
 
-// All Questions formatted and put into questionList array
+// All Questions formatted and put into question List array
 const options1 = ["1. boolean", "2. object", "3. number", "4. string"];
 const question1 = new Question("What data types can local storage accept?", options1, "4. string");
 questionList.push(question1);
@@ -62,7 +61,7 @@ function init() {
     scores.addEventListener("click", showScores);
 }
 
-// Makes elements before the quiz started invisible and creates option buttons/
+// Makes elements before the quiz started invisible and creates option buttons
 function questionLoop () {
     runTimer();
     isQuizOngoing = true;
@@ -114,7 +113,7 @@ function writeAnswer(event) {
         if(event.currentTarget.textContent === questionList[currentQues - 1].answer) {
             isCorrect = true;
             answer.textContent = "Correct";
-            answer.setAttribute("style", "color: bright green");
+            answer.setAttribute("style", "color: green");
             score += 10;
         } else {
             isCorrect = false;
