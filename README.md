@@ -14,7 +14,7 @@ When taking this code quiz:
 - When all questions are answered or the timer reaches 0; then the game is over
 - When the game is over, you can then save your initials and score
 
-Live Link:  
+Live Link:
 https://cinderbeast.github.io/Web-APIs/
 
 The following is a screen shot of the application:
