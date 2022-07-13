@@ -1,33 +1,19 @@
-/* * {
-    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
-    monospace;
-    color: #272643;
-} */
 * {
-    font-family: Times, Times New Roman, Georgia, serif;
+    font-family: 'Times', 'Times New Roman', 'Georgia', 'seri';
     color: #272643;
 }
-body {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(0, 153, 255);
-  } 
 
 header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: solid 10px #37637c;
+    border-bottom: solid 10px #1e51d4;
 }
 
 header > *{
-    border: solid rgb(8, 6, 104) 3px;
+    background-color: white;
+    border: solid rgb(0, 0, 0) 3px;
     border-radius: 20px;
     margin: 20px 5%;
     font-size: 125%;
@@ -35,8 +21,8 @@ header > *{
 }
 
 #container {
-    background-color: white;
-    border: solid #032068 10px;
+    background-color: yellow;
+    border: solid #1e51d4 10px;
     border-radius: 20px;
     margin: 50px 10% 20px;
     display: flex;
@@ -44,7 +30,7 @@ header > *{
 }
 
 #container > * {
-    margin: 25px 5%;
+    margin: 20px 5%;
     align-self: center;
 }
 
@@ -58,7 +44,7 @@ header > *{
 }
 
 button {
-    background-color: #15e130;
+    background-color: rgb(52, 233, 52);
     color: white;
     border: solid black 3px;
     border-radius: 20px;
