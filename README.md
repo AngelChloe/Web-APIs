@@ -17,6 +17,6 @@ When taking this code quiz:
 Live Link:  
 https://cinderbeast.github.io/Web-APIs/
 
-The following animation demonstrates the application functionality:
+The following is a screen shot of the application:
 
 ![Quiz screen shot](https://user-images.githubusercontent.com/105569378/178125312-20b1b388-725e-4c0a-83fe-a7f3ebc05c99.png)
