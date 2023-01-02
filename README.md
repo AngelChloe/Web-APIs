@@ -15,7 +15,7 @@ When taking this code quiz:
 - When the game is over, you can then save your initials and score
 
 Live Link:
-https://cinderbeast.github.io/Web-APIs/
+https://angelchloe.github.io/Web-APIs/
 
 Github Repository Link:
 https://github.com/AngelChloe/Web-APIs
